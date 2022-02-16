@@ -4,7 +4,7 @@ import { Input } from 'antd';
 export default function VerifyCode(props) {
   const { value, onChange, ...restProps } = props;
   return <div>
-    <Input onChange={onChange} value={value} />
+    <Input.Password onChange={onChange} value={value} {...restProps} />
     <p>密码：{value}</p>
   </div>;
 }

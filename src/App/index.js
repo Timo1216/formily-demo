@@ -56,6 +56,7 @@ export default function App(props) {
             x-component="VerifyCode"
             x-component-props={{
               prefix: "{{icon('LockOutlined')}}",
+              
             }}
           />
       </SchemaField>
